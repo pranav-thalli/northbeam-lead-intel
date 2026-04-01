@@ -1,0 +1,841 @@
+{
+  "leads": [
+    {
+      "name": "Away",
+      "url": "https://www.awaytravel.com",
+      "category": "Travel",
+      "estimated_size": "large",
+      "ad_pixels": [
+        "Meta Pixel",
+        "Google Ads",
+        "Google Analytics",
+        "Pinterest Tag"
+      ],
+      "marketing_tech": [
+        "Klaviyo"
+      ],
+      "attribution_tools": [
+        "Rockerbox"
+      ],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 4,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:26.541174+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Away&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 90,
+      "tier": "hot",
+      "score_reasons": [
+        "Heavy multi-channel advertiser (4 pixel types)",
+        "Uses competitor (Rockerbox) \u2014 displacement opportunity",
+        "Shopify store (native Northbeam integration)",
+        "Large brand \u2014 high-value prospect"
+      ]
+    },
+    {
+      "name": "Parade",
+      "url": "https://www.yourparade.com",
+      "category": "Apparel",
+      "estimated_size": "small",
+      "ad_pixels": [
+        "Meta Pixel",
+        "Google Ads",
+        "Google Analytics",
+        "TikTok Pixel",
+        "Pinterest Tag"
+      ],
+      "marketing_tech": [
+        "Klaviyo",
+        "Attentive",
+        "Yotpo"
+      ],
+      "attribution_tools": [
+        "Triple Whale"
+      ],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 5,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:27.106396+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Parade&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 90,
+      "tier": "hot",
+      "score_reasons": [
+        "Heavy multi-channel advertiser (5 pixel types)",
+        "Uses competitor (Triple Whale) \u2014 displacement opportunity",
+        "Sophisticated martech stack (3 tools)",
+        "Shopify store (native Northbeam integration)"
+      ]
+    },
+    {
+      "name": "True Classic",
+      "url": "https://trueclassictees.com",
+      "category": "Apparel",
+      "estimated_size": "mid",
+      "ad_pixels": [
+        "Meta Pixel",
+        "Google Analytics"
+      ],
+      "marketing_tech": [
+        "Klaviyo",
+        "Attentive",
+        "Postscript",
+        "Retention.com"
+      ],
+      "attribution_tools": [
+        "Triple Whale",
+        "Segment"
+      ],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 2,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:29.174467+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=True%20Classic&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 80,
+      "tier": "hot",
+      "score_reasons": [
+        "Multi-channel advertiser (2 pixel types)",
+        "Uses competitor (Triple Whale, Segment) \u2014 displacement opportunity",
+        "Sophisticated martech stack (4 tools)",
+        "Shopify store (native Northbeam integration)",
+        "Mid-market brand"
+      ]
+    },
+    {
+      "name": "Alo Yoga",
+      "url": "https://www.aloyoga.com",
+      "category": "Activewear",
+      "estimated_size": "large",
+      "ad_pixels": [
+        "Meta Pixel",
+        "Google Analytics"
+      ],
+      "marketing_tech": [
+        "Attentive"
+      ],
+      "attribution_tools": [],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 2,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:27.355305+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Alo%20Yoga&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 70,
+      "tier": "warm",
+      "score_reasons": [
+        "Multi-channel advertiser (2 pixel types)",
+        "No attribution tool detected \u2014 greenfield opportunity",
+        "Shopify store (native Northbeam integration)",
+        "Large brand \u2014 high-value prospect"
+      ]
+    },
+    {
+      "name": "Glossier",
+      "url": "https://www.glossier.com",
+      "category": "Beauty",
+      "estimated_size": "large",
+      "ad_pixels": [],
+      "marketing_tech": [
+        "Klaviyo",
+        "Yotpo",
+        "Gorgias"
+      ],
+      "attribution_tools": [],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 0,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:21.126815+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Glossier&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 65,
+      "tier": "warm",
+      "score_reasons": [
+        "No attribution tool detected \u2014 greenfield opportunity",
+        "Sophisticated martech stack (3 tools)",
+        "Shopify store (native Northbeam integration)",
+        "Large brand \u2014 high-value prospect"
+      ]
+    },
+    {
+      "name": "Mejuri",
+      "url": "https://www.mejuri.com",
+      "category": "Jewelry",
+      "estimated_size": "mid",
+      "ad_pixels": [
+        "Google Analytics"
+      ],
+      "marketing_tech": [
+        "Postscript",
+        "Yotpo"
+      ],
+      "attribution_tools": [
+        "Segment"
+      ],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 1,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:27.592888+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Mejuri&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 65,
+      "tier": "warm",
+      "score_reasons": [
+        "Uses competitor (Segment) \u2014 displacement opportunity",
+        "Shopify store (native Northbeam integration)",
+        "Mid-market brand"
+      ]
+    },
+    {
+      "name": "Allbirds",
+      "url": "https://www.allbirds.com",
+      "category": "Footwear",
+      "estimated_size": "large",
+      "ad_pixels": [
+        "Google Analytics"
+      ],
+      "marketing_tech": [],
+      "attribution_tools": [
+        "Segment"
+      ],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 1,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:21.375026+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Allbirds&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 60,
+      "tier": "warm",
+      "score_reasons": [
+        "Uses competitor (Segment) \u2014 displacement opportunity",
+        "Shopify store (native Northbeam integration)",
+        "Large brand \u2014 high-value prospect"
+      ]
+    },
+    {
+      "name": "Casper",
+      "url": "https://casper.com",
+      "category": "Home",
+      "estimated_size": "large",
+      "ad_pixels": [],
+      "marketing_tech": [
+        "Attentive",
+        "Yotpo"
+      ],
+      "attribution_tools": [],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 0,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:26.221152+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Casper&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 60,
+      "tier": "warm",
+      "score_reasons": [
+        "No attribution tool detected \u2014 greenfield opportunity",
+        "Shopify store (native Northbeam integration)",
+        "Large brand \u2014 high-value prospect"
+      ]
+    },
+    {
+      "name": "Vuori",
+      "url": "https://vuori.com",
+      "category": "Activewear",
+      "estimated_size": "large",
+      "ad_pixels": [
+        "Google Analytics"
+      ],
+      "marketing_tech": [
+        "Yotpo"
+      ],
+      "attribution_tools": [],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 1,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:28.020621+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Vuori&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 60,
+      "tier": "warm",
+      "score_reasons": [
+        "No attribution tool detected \u2014 greenfield opportunity",
+        "Shopify store (native Northbeam integration)",
+        "Large brand \u2014 high-value prospect"
+      ]
+    },
+    {
+      "name": "Rothys",
+      "url": "https://rothys.com",
+      "category": "Footwear",
+      "estimated_size": "mid",
+      "ad_pixels": [],
+      "marketing_tech": [
+        "Yotpo"
+      ],
+      "attribution_tools": [
+        "Segment"
+      ],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 0,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:27.879275+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Rothys&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 55,
+      "tier": "warm",
+      "score_reasons": [
+        "Uses competitor (Segment) \u2014 displacement opportunity",
+        "Shopify store (native Northbeam integration)",
+        "Mid-market brand"
+      ]
+    },
+    {
+      "name": "Skims",
+      "url": "https://skims.com",
+      "category": "Apparel",
+      "estimated_size": "large",
+      "ad_pixels": [],
+      "marketing_tech": [
+        "Attentive"
+      ],
+      "attribution_tools": [],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 0,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:28.152469+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Skims&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 55,
+      "tier": "warm",
+      "score_reasons": [
+        "No attribution tool detected \u2014 greenfield opportunity",
+        "Shopify store (native Northbeam integration)",
+        "Large brand \u2014 high-value prospect"
+      ]
+    },
+    {
+      "name": "Obvi",
+      "url": "https://myobvi.com",
+      "category": "Health",
+      "estimated_size": "small",
+      "ad_pixels": [
+        "Meta Pixel",
+        "Google Analytics",
+        "TikTok Pixel"
+      ],
+      "marketing_tech": [
+        "Klaviyo",
+        "Omnisend",
+        "Postscript",
+        "Yotpo",
+        "Gorgias",
+        "Retention.com"
+      ],
+      "attribution_tools": [
+        "Northbeam",
+        "Triple Whale"
+      ],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 3,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:28.952787+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Obvi&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 55,
+      "tier": "warm",
+      "score_reasons": [
+        "Multi-channel advertiser (3 pixel types)",
+        "Already a Northbeam customer",
+        "Sophisticated martech stack (6 tools)",
+        "Shopify store (native Northbeam integration)"
+      ]
+    },
+    {
+      "name": "MVMT",
+      "url": "https://www.mvmt.com",
+      "category": "Watches",
+      "estimated_size": "mid",
+      "ad_pixels": [
+        "Google Analytics"
+      ],
+      "marketing_tech": [
+        "Attentive",
+        "Yotpo"
+      ],
+      "attribution_tools": [],
+      "platform": [],
+      "ad_channel_count": 1,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:22.413188+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=MVMT&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 50,
+      "tier": "warm",
+      "score_reasons": [
+        "No attribution tool detected \u2014 greenfield opportunity",
+        "Mid-market brand"
+      ]
+    },
+    {
+      "name": "Brooklinen",
+      "url": "https://www.brooklinen.com",
+      "category": "Home",
+      "estimated_size": "mid",
+      "ad_pixels": [
+        "Meta Pixel",
+        "Google Analytics"
+      ],
+      "marketing_tech": [
+        "Postscript",
+        "Yotpo",
+        "Retention.com"
+      ],
+      "attribution_tools": [
+        "Northbeam"
+      ],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 2,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:22.590714+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Brooklinen&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 50,
+      "tier": "warm",
+      "score_reasons": [
+        "Multi-channel advertiser (2 pixel types)",
+        "Already a Northbeam customer",
+        "Sophisticated martech stack (3 tools)",
+        "Shopify store (native Northbeam integration)",
+        "Mid-market brand"
+      ]
+    },
+    {
+      "name": "Gymshark",
+      "url": "https://www.gymshark.com",
+      "category": "Activewear",
+      "estimated_size": "large",
+      "ad_pixels": [],
+      "marketing_tech": [],
+      "attribution_tools": [],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 0,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:22.985116+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Gymshark&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 50,
+      "tier": "warm",
+      "score_reasons": [
+        "No attribution tool detected \u2014 greenfield opportunity",
+        "Shopify store (native Northbeam integration)",
+        "Large brand \u2014 high-value prospect"
+      ]
+    },
+    {
+      "name": "Bombas",
+      "url": "https://bombas.com",
+      "category": "Apparel",
+      "estimated_size": "large",
+      "ad_pixels": [],
+      "marketing_tech": [],
+      "attribution_tools": [],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 0,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:25.992809+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Bombas&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 50,
+      "tier": "warm",
+      "score_reasons": [
+        "No attribution tool detected \u2014 greenfield opportunity",
+        "Shopify store (native Northbeam integration)",
+        "Large brand \u2014 high-value prospect"
+      ]
+    },
+    {
+      "name": "Cozy Earth",
+      "url": "https://www.cozyearth.com",
+      "category": "Home",
+      "estimated_size": "mid",
+      "ad_pixels": [
+        "Google Ads",
+        "Google Analytics"
+      ],
+      "marketing_tech": [
+        "Klaviyo",
+        "Attentive",
+        "Gorgias",
+        "Retention.com"
+      ],
+      "attribution_tools": [
+        "Northbeam"
+      ],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 2,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:30.039155+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Cozy%20Earth&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 50,
+      "tier": "warm",
+      "score_reasons": [
+        "Multi-channel advertiser (2 pixel types)",
+        "Already a Northbeam customer",
+        "Sophisticated martech stack (4 tools)",
+        "Shopify store (native Northbeam integration)",
+        "Mid-market brand"
+      ]
+    },
+    {
+      "name": "Warby Parker",
+      "url": "https://www.warbyparker.com",
+      "category": "Eyewear",
+      "estimated_size": "large",
+      "ad_pixels": [
+        "Google Analytics"
+      ],
+      "marketing_tech": [],
+      "attribution_tools": [],
+      "platform": [],
+      "ad_channel_count": 1,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:26.035560+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Warby%20Parker&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 45,
+      "tier": "cool",
+      "score_reasons": [
+        "No attribution tool detected \u2014 greenfield opportunity",
+        "Large brand \u2014 high-value prospect"
+      ]
+    },
+    {
+      "name": "Chubbies",
+      "url": "https://www.chubbiesshorts.com",
+      "category": "Apparel",
+      "estimated_size": "mid",
+      "ad_pixels": [],
+      "marketing_tech": [],
+      "attribution_tools": [],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 0,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:27.264427+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Chubbies&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 45,
+      "tier": "cool",
+      "score_reasons": [
+        "No attribution tool detected \u2014 greenfield opportunity",
+        "Shopify store (native Northbeam integration)",
+        "Mid-market brand"
+      ]
+    },
+    {
+      "name": "Cuts Clothing",
+      "url": "https://www.cutsclothing.com",
+      "category": "Apparel",
+      "estimated_size": "mid",
+      "ad_pixels": [],
+      "marketing_tech": [],
+      "attribution_tools": [],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 0,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:30.234395+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Cuts%20Clothing&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 45,
+      "tier": "cool",
+      "score_reasons": [
+        "No attribution tool detected \u2014 greenfield opportunity",
+        "Shopify store (native Northbeam integration)",
+        "Mid-market brand"
+      ]
+    },
+    {
+      "name": "Ridge",
+      "url": "https://www.ridge.com",
+      "category": "Accessories",
+      "estimated_size": "mid",
+      "ad_pixels": [
+        "Google Analytics"
+      ],
+      "marketing_tech": [
+        "Klaviyo",
+        "Mailchimp",
+        "Postscript"
+      ],
+      "attribution_tools": [
+        "Northbeam"
+      ],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 1,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:21.968648+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Ridge&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 40,
+      "tier": "cool",
+      "score_reasons": [
+        "Already a Northbeam customer",
+        "Sophisticated martech stack (3 tools)",
+        "Shopify store (native Northbeam integration)",
+        "Mid-market brand"
+      ]
+    },
+    {
+      "name": "Hexclad",
+      "url": "https://www.hexclad.com",
+      "category": "Home",
+      "estimated_size": "mid",
+      "ad_pixels": [
+        "Google Analytics"
+      ],
+      "marketing_tech": [
+        "Klaviyo",
+        "Postscript"
+      ],
+      "attribution_tools": [
+        "Northbeam"
+      ],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 1,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:28.741514+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Hexclad&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 35,
+      "tier": "cool",
+      "score_reasons": [
+        "Already a Northbeam customer",
+        "Shopify store (native Northbeam integration)",
+        "Mid-market brand"
+      ]
+    },
+    {
+      "name": "Jones Road Beauty",
+      "url": "https://jonesroadbeauty.com",
+      "category": "Beauty",
+      "estimated_size": "mid",
+      "ad_pixels": [],
+      "marketing_tech": [
+        "Klaviyo",
+        "Attentive",
+        "Postscript"
+      ],
+      "attribution_tools": [
+        "Northbeam"
+      ],
+      "platform": [
+        "Shopify"
+      ],
+      "ad_channel_count": 0,
+      "scrape_status": "success",
+      "scraped_at": "2026-04-01T01:50:29.786052+00:00",
+      "meta_ad_library": {
+        "library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=Jones%20Road%20Beauty&media_type=all",
+        "has_active_ads": false,
+        "checked": true
+      },
+      "score": 35,
+      "tier": "cool",
+      "score_reasons": [
+        "Already a Northbeam customer",
+        "Sophisticated martech stack (3 tools)",
+        "Shopify store (native Northbeam integration)",
+        "Mid-market brand"
+      ]
+    },
+    {
+      "name": "Fabletics",
+      "url": "https://www.fabletics.com",
+      "category": "Activewear",
+      "estimated_size": "large",
+      "ad_pixels": [],
+      "marketing_tech": [],
+      "attribution_tools": [],
+      "platform": [],
+      "meta_ad_library": {
+        "checked": false
+      },
+      "scrape_status": "failed",
+      "scraped_at": "2026-04-01T01:50:25.715137+00:00"
+    },
+    {
+      "name": "Native",
+      "url": "https://www.nativcos.com",
+      "category": "Beauty",
+      "estimated_size": "mid",
+      "ad_pixels": [],
+      "marketing_tech": [],
+      "attribution_tools": [],
+      "platform": [],
+      "meta_ad_library": {
+        "checked": false
+      },
+      "scrape_status": "failed",
+      "scraped_at": "2026-04-01T01:50:29.225136+00:00"
+    }
+  ],
+  "insights": {
+    "total_brands_analyzed": 23,
+    "attribution_adoption": {
+      "has_attribution_tool": 12,
+      "no_attribution_tool": 11,
+      "adoption_rate_pct": 52.2
+    },
+    "competitor_breakdown": {
+      "Northbeam": 6,
+      "Segment": 4,
+      "Triple Whale": 3,
+      "Rockerbox": 1
+    },
+    "ad_channels": {
+      "avg_channels_per_brand": 1.2,
+      "by_company_size": {
+        "large": 0.9,
+        "small": 4.0,
+        "mid": 0.9
+      }
+    },
+    "tier_distribution": {
+      "hot": 3,
+      "warm": 14,
+      "cool": 6,
+      "cold": 0
+    },
+    "martech_breakdown": {
+      "Klaviyo": 9,
+      "Yotpo": 9,
+      "Attentive": 8,
+      "Postscript": 7,
+      "Retention.com": 4,
+      "Gorgias": 3,
+      "Omnisend": 1,
+      "Mailchimp": 1
+    },
+    "platform_breakdown": {
+      "Shopify": 21
+    },
+    "score_stats": {
+      "avg": 56.5,
+      "max": 90,
+      "min": 35
+    },
+    "generated_at": "2026-04-01T01:50:30.315502+00:00"
+  },
+  "pipeline_metadata": {
+    "brands_input": 25,
+    "brands_scraped": 23,
+    "brands_failed": 2,
+    "run_at": "2026-04-01T01:50:30.315511+00:00"
+  }
+}

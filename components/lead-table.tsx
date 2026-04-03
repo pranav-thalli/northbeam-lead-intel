@@ -92,10 +92,10 @@ export function LeadTable({ leads }: LeadTableProps) {
 
   const SortIcon = ({ field }: { field: string }) => {
     if (sortField !== field)
-      return <span className="text-zinc-300 dark:text-zinc-600 ml-1">&#8597;</span>;
+      return <span className="text-zinc-300 dark:text-zinc-600 ml-1">{"\u2195"}</span>;
     return (
       <span className="text-indigo-500 ml-1">
-        {sortDir === "desc" ? "&#9660;" : "&#9650;"}
+        {sortDir === "desc" ? "\u25BC" : "\u25B2"}
       </span>
     );
   };
@@ -166,8 +166,87 @@ export function LeadTable({ leads }: LeadTableProps) {
         </div>
       </div>
 
-      {/* Table */}
-      <div className="overflow-x-auto rounded-xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
+      {/* Mobile card layout */}
+      <div className="md:hidden space-y-3">
+        {sorted.map((lead) => (
+          <div
+            key={lead.name}
+            className="cursor-pointer rounded-xl border border-zinc-200 bg-white p-4 transition-colors hover:bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:bg-zinc-800/50"
+            onClick={() => setSelectedLead(lead)}
+          >
+            <div className="flex items-start justify-between mb-3">
+              <div>
+                <div className="font-medium text-zinc-900 dark:text-zinc-100">
+                  {lead.name}
+                </div>
+                <div className="text-xs text-zinc-400">{lead.estimated_size} &middot; {lead.category}</div>
+              </div>
+              <TierBadge tier={lead.tier} />
+            </div>
+            <div className="flex items-center gap-2 mb-3">
+              <div className="h-2 flex-1 max-w-[120px] overflow-hidden rounded-full bg-zinc-100 dark:bg-zinc-800">
+                <div
+                  className={`h-full rounded-full ${
+                    lead.score >= 75
+                      ? "bg-red-500"
+                      : lead.score >= 50
+                        ? "bg-amber-500"
+                        : "bg-blue-500"
+                  }`}
+                  style={{ width: `${(lead.score / 100) * 100}%` }}
+                />
+              </div>
+              <span className="text-xs font-mono text-zinc-600 dark:text-zinc-300">
+                {lead.score}
+              </span>
+            </div>
+            {lead.attribution_tools.length > 0 && (
+              <div className="mb-2">
+                <div className="text-[10px] font-medium text-zinc-400 uppercase tracking-wider mb-1">Attribution</div>
+                <TechPills
+                  items={lead.attribution_tools}
+                  color={
+                    lead.attribution_tools.includes("Northbeam")
+                      ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300"
+                      : "bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-300"
+                  }
+                />
+              </div>
+            )}
+            {lead.ad_pixels.length > 0 && (
+              <div className="mb-2">
+                <div className="text-[10px] font-medium text-zinc-400 uppercase tracking-wider mb-1">Ad Pixels</div>
+                <TechPills
+                  items={lead.ad_pixels}
+                  color="bg-sky-50 text-sky-700 dark:bg-sky-900/30 dark:text-sky-300"
+                />
+              </div>
+            )}
+            {lead.marketing_tech.length > 0 && (
+              <div>
+                <div className="text-[10px] font-medium text-zinc-400 uppercase tracking-wider mb-1">Martech</div>
+                <TechPills
+                  items={lead.marketing_tech.slice(0, 3)}
+                  color="bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400"
+                />
+                {lead.marketing_tech.length > 3 && (
+                  <span className="ml-1 text-[11px] text-zinc-400">
+                    +{lead.marketing_tech.length - 3}
+                  </span>
+                )}
+              </div>
+            )}
+          </div>
+        ))}
+        {sorted.length === 0 && (
+          <div className="px-4 py-8 text-center text-sm text-zinc-400">
+            No leads match filters
+          </div>
+        )}
+      </div>
+
+      {/* Desktop table */}
+      <div className="hidden md:block overflow-x-auto rounded-xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
         <table className="w-full text-sm">
           <thead>
             <tr className="border-b border-zinc-100 dark:border-zinc-800">
@@ -198,10 +277,10 @@ export function LeadTable({ leads }: LeadTableProps) {
                 Ad Pixels
                 <SortIcon field="channels" />
               </th>
-              <th className="hidden px-4 py-3 text-left font-medium text-zinc-500 dark:text-zinc-400 lg:table-cell">
+              <th className="px-4 py-3 text-left font-medium text-zinc-500 dark:text-zinc-400 lg:table-cell hidden">
                 Martech
               </th>
-              <th className="hidden px-4 py-3 text-left font-medium text-zinc-500 dark:text-zinc-400 md:table-cell">
+              <th className="px-4 py-3 text-left font-medium text-zinc-500 dark:text-zinc-400">
                 Category
               </th>
             </tr>
@@ -221,7 +300,7 @@ export function LeadTable({ leads }: LeadTableProps) {
                 </td>
                 <td className="px-4 py-3">
                   <div className="flex items-center gap-2">
-                    <div className="h-2 w-12 overflow-hidden rounded-full bg-zinc-100 dark:bg-zinc-800">
+                    <div className="h-2 w-20 overflow-hidden rounded-full bg-zinc-100 dark:bg-zinc-800">
                       <div
                         className={`h-full rounded-full ${
                           lead.score >= 75
@@ -230,7 +309,7 @@ export function LeadTable({ leads }: LeadTableProps) {
                               ? "bg-amber-500"
                               : "bg-blue-500"
                         }`}
-                        style={{ width: `${lead.score}%` }}
+                        style={{ width: `${(lead.score / 100) * 100}%` }}
                       />
                     </div>
                     <span className="text-xs font-mono text-zinc-600 dark:text-zinc-300">
@@ -268,7 +347,7 @@ export function LeadTable({ leads }: LeadTableProps) {
                     </span>
                   )}
                 </td>
-                <td className="hidden px-4 py-3 text-zinc-500 dark:text-zinc-400 md:table-cell">
+                <td className="px-4 py-3 text-zinc-500 dark:text-zinc-400">
                   {lead.category}
                 </td>
               </tr>

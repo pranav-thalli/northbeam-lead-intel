@@ -27,7 +27,11 @@ function TierBadge({ tier }: { tier: string }) {
 
 function TechPills({ items, color }: { items: string[]; color: string }) {
   if (items.length === 0)
-    return null;
+    return (
+      <span className="inline-flex items-center rounded px-1.5 py-0.5 text-[11px] font-medium bg-zinc-100 text-zinc-400 dark:bg-zinc-800 dark:text-zinc-500">
+        None
+      </span>
+    );
   return (
     <div className="flex flex-wrap gap-1">
       {items.map((item) => (
@@ -200,8 +204,7 @@ export function LeadTable({ leads }: LeadTableProps) {
                 {lead.score}
               </span>
             </div>
-            {lead.attribution_tools.length > 0 && (
-              <div className="mb-2">
+            <div className="mb-2">
                 <div className="text-[10px] font-medium text-zinc-400 uppercase tracking-wider mb-1">Attribution</div>
                 <TechPills
                   items={lead.attribution_tools}
@@ -212,18 +215,14 @@ export function LeadTable({ leads }: LeadTableProps) {
                   }
                 />
               </div>
-            )}
-            {lead.ad_pixels.length > 0 && (
-              <div className="mb-2">
+            <div className="mb-2">
                 <div className="text-[10px] font-medium text-zinc-400 uppercase tracking-wider mb-1">Ad Pixels</div>
                 <TechPills
                   items={lead.ad_pixels}
                   color="bg-sky-50 text-sky-700 dark:bg-sky-900/30 dark:text-sky-300"
                 />
               </div>
-            )}
-            {lead.marketing_tech.length > 0 && (
-              <div>
+            <div>
                 <div className="text-[10px] font-medium text-zinc-400 uppercase tracking-wider mb-1">Martech</div>
                 <TechPills
                   items={lead.marketing_tech.slice(0, 3)}
@@ -235,7 +234,6 @@ export function LeadTable({ leads }: LeadTableProps) {
                   </span>
                 )}
               </div>
-            )}
           </div>
         ))}
         {sorted.length === 0 && (

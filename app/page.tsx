@@ -30,7 +30,7 @@ export default async function Home() {
               {data.pipeline_metadata.brands_scraped} brands scraped
             </span>
             <a
-              href="https://github.com/pranavmodi/northbeam-lead-intel"
+              href="https://github.com/pranav-thalli/northbeam-lead-intel"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-lg border border-zinc-300 px-3 py-1.5 text-zinc-700 transition-colors hover:bg-zinc-50 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800"

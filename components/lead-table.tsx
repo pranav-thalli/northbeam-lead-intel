@@ -27,7 +27,7 @@ function TierBadge({ tier }: { tier: string }) {
 
 function TechPills({ items, color }: { items: string[]; color: string }) {
   if (items.length === 0)
-    return <span className="text-xs text-zinc-400">--</span>;
+    return null;
   return (
     <div className="flex flex-wrap gap-1">
       {items.map((item) => (
